@@ -1,3 +1,6 @@
+# empecher le commit des builds
+app/platforms/
+
 # Idea files
 .idea/
 

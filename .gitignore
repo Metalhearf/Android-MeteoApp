@@ -1,3 +1,6 @@
+# Idea files
+.idea/
+
 # Files for the Dalvik VM
 *.dex
 

@@ -96,14 +96,15 @@ body {
   font-family: "OpenSans";
   font-size: 16px;
   background-color: #1F253D;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-/* line 26, style.scss */
+/* line 27, style.scss */
 i {
   display: inline-block;
 }
 
-/* line 29, style.scss */
+/* line 30, style.scss */
 h1 {
   font-size: 28px;
   text-align: center;
@@ -113,14 +114,14 @@ h1 {
   display: none;
 }
 
-/* line 37, style.scss */
+/* line 38, style.scss */
 p {
   margin: 1em 0px;
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 41, style.scss */
+/* line 42, style.scss */
 input.text {
   display: block;
   width: 100%;
@@ -143,12 +144,12 @@ input.text {
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 54, style.scss */
+/* line 55, style.scss */
 input.text:focus {
   border: 1px solid #11a7ab;
 }
 
-/* line 58, style.scss */
+/* line 59, style.scss */
 input.submit, .btn {
   display: inline-block;
   padding: 0 5px;
@@ -171,13 +172,13 @@ input.submit, .btn {
   text-decoration: none;
 }
 
-/* line 74, style.scss */
+/* line 75, style.scss */
 .btn {
   background-color: #11a7ab;
   float: left;
 }
 
-/* line 78, style.scss */
+/* line 79, style.scss */
 .back {
   display: block;
   position: absolute;
@@ -189,13 +190,13 @@ input.submit, .btn {
   heigt: 60px;
 }
 
-/* line 88, style.scss */
+/* line 89, style.scss */
 .loader {
   background: url(img/loader.gif) center center no-repeat rgba(57, 66, 100, 0.6);
   z-index: 500;
 }
 
-/* line 93, style.scss */
+/* line 94, style.scss */
 .row-title {
   height: 60px;
   line-height: 60px;
@@ -214,28 +215,28 @@ input.submit, .btn {
   font-weight: bold;
 }
 
-/* line 105, style.scss */
+/* line 106, style.scss */
 .row {
   height: 60px;
   background-color: #394163;
   margin: 1px 0;
   position: relative;
 }
-/* line 110, style.scss */
+/* line 111, style.scss */
 .row i {
   position: absolute;
   left: 20px;
   top: 5px;
 }
 
-/* line 116, style.scss */
+/* line 117, style.scss */
 .row-active {
   height: 60px;
   background-color: #394763;
   margin: 1px 0;
 }
 
-/* line 121, style.scss */
+/* line 122, style.scss */
 .header {
   position: absolute;
   top: 0;
@@ -249,7 +250,7 @@ input.submit, .btn {
   background-color: #11a7ab;
 }
 
-/* line 134, style.scss */
+/* line 135, style.scss */
 .view {
   position: absolute;
   top: 60px;
@@ -258,7 +259,7 @@ input.submit, .btn {
   bottom: 60px;
 }
 
-/* line 142, style.scss */
+/* line 143, style.scss */
 .nav {
   position: absolute;
   bottom: 0;
@@ -270,10 +271,10 @@ input.submit, .btn {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 151, style.scss */
+/* line 152, style.scss */
 .nav a {
   display: block;
-  width: 50%;
+  width: 20%;
   float: left;
   line-height: 60px;
   -moz-transition-duration: 1s;
@@ -281,20 +282,20 @@ input.submit, .btn {
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 158, style.scss */
-.nav a:first-child {
-  border-right: 1px solid #1F253d;
+/* line 159, style.scss */
+.nav a:first-child, .nav :nth-child(2), .nav :nth-child(3), .nav :nth-child(4) {
+  border-right: 1px solid #1F253D;
 }
-/* line 161, style.scss */
+/* line 162, style.scss */
 .nav .active {
-  border-top: 3px solid #11a7ab;
+  border-top: 3px solid #11A7AB;
 }
-/* line 164, style.scss */
+/* line 165, style.scss */
 .nav i {
   margin-top: 15px;
 }
 
-/* line 169, style.scss */
+/* line 170, style.scss */
 .panel, .loader {
   position: absolute;
   top: 0;
@@ -308,28 +309,34 @@ input.submit, .btn {
   -o-transition-duration: 0.5s;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  background-color: #1F253D;
 }
 
-/* line 181, style.scss */
-.left {
-  -moz-transform: translate3D(-100%, 0, 0);
-  -ms-transform: translate3D(-100%, 0, 0);
-  -webkit-transform: translate3D(-100%, 0, 0);
-  transform: translate3D(-100%, 0, 0);
-}
-
-/* line 184, style.scss */
-.center {
-  -moz-transform: translate3D(0, 0, 0);
-  -ms-transform: translate3D(0, 0, 0);
-  -webkit-transform: translate3D(0, 0, 0);
-  transform: translate3D(0, 0, 0);
+/* line 183, style.scss */
+.panel-padding {
+  padding: 20px 25px;
 }
 
 /* line 187, style.scss */
+.left {
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+/* line 190, style.scss */
+.center {
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+/* line 193, style.scss */
 .right {
-  -moz-transform: translate3D(100%, 0, 0);
-  -ms-transform: translate3D(100%, 0, 0);
-  -webkit-transform: translate3D(100%, 0, 0);
-  transform: translate3D(100%, 0, 0);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
 }

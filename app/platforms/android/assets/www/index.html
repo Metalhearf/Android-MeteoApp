@@ -5,24 +5,31 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
     <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="dist/css/style.css">
+    <link rel="stylesheet" type="text/css" href="dist/css/animation.css">
     <title>ETNA - App Météo</title>
 </head>
 <body>
     <header class="header">
-        Application Météo
+        ETNA - Application Météo
     </header>
 
     <section class="view" ng-view>
     </section>
 
     <nav class="nav" ng-controller="NavController">
-        <a href="#home" ng-class="{active: menu== 'home'}"><i class="glyphicon glyphicon-home"></i></a>
-        <a href="#about"ng-class="{active: menu== 'about'}"><i class="glyphicon glyphicon-search"></i></a>
+        <a href="#home" ng-click="menu='home'" ng-class="{active: menu=='home'}"><i class="glyphicon glyphicon-floppy-open"></i></a>
+
+        <a href="#chart-moyenne" ng-click="menu='chart-moyenne'" ng-class="{active: menu=='chart-moyenne'}"><i class="glyphicon glyphicon-stats"></i></a>
+        <a href="#chart-fulldata" ng-click="menu='chart-fulldata'" ng-class="{active: menu=='chart-fulldata'}"><i class="glyphicon glyphicon-stats"></i></a>
+        <a href="#chart-windrose" ng-click="menu='chart-windrose'" ng-class="{active: menu=='chart-windrose'}"><i class="glyphicon glyphicon-stats"></i></a>
+
+        <a href="#about" ng-click="menu='about'" ng-class="{active: menu=='about'}"><i class="glyphicon glyphicon-envelope"></i></a>
     </nav>
 
     <script src="dist/js/jquery.js"></script>
     <script src="dist/js/angular.js"></script>
     <script src="dist/js/angular-route.js"></script>
     <script src="dist/js/app.js"></script>
+    <script src="dist/js/transition.js"></script>
 </body>
 </html>

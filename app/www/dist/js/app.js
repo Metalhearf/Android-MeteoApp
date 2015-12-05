@@ -6,11 +6,29 @@ var app = angular.module('app', ['ngRoute']);
 
 app.config(function($routeProvider){
 	$routeProvider
-		.when('/home', {templateURL: 'views/home.html'})
-		.when('/about', {templateURL: 'views/about.html'})
-		.otherwise({redirectTo: '/home'})
+		.when('/home', {
+			templateUrl: 'views/home.html'
+		})
+
+		.when('/chart-moyenne', {
+			templateUrl: 'views/chart-moyenne.html'
+		})
+
+		.when('/chart-fulldata', {
+			templateUrl: 'views/chart-fulldata.html'
+		})
+
+		.when('/chart-windrose', {
+			templateUrl: 'views/chart-windrose.html'
+		})
+
+		.when('/about', {
+			templateUrl: 'views/about.html'
+		})
+
+		.otherwise({ redirectTo: '/home' })
 });
 
 app.controller("NavController", function ($scope) {
-	$scope.menu = "home";
+	$scope.menu = 'home';
 });

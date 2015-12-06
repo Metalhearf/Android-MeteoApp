@@ -29,14 +29,13 @@ i {
 }
 h1 {
 	font-size: 28px;
+	font-family: "OpenSans";
+	text-transform: uppercase;
 	text-align: center;
 	color: #FFF;
-	font-weight: bold;
-	margin: 45px 0;
-	display: none;
 }
 p {
-	margin: 1em 0px;
+	margin: 1.5em 0px;
 	@include clearfix;
 }
 input.text {
@@ -192,4 +191,30 @@ input.submit, .btn {
 }
 .right{
 	@include transform(translateX(100%));
+}
+
+.thumb {
+    width: 24px;
+    height: 24px;
+    float: none;
+    position: relative;
+    top: 7px;
+}
+
+form .progress {
+    line-height: 15px;
+}
+
+.progress {
+    display: inline-block;
+    width: 100px;
+    border: 3px groove #CCC;
+
+}
+
+.progress div {
+    font-size: smaller;
+    color: #fff;
+    background-color: #11A7AB;
+    text-align: center;
 }

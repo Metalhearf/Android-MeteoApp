@@ -9,6 +9,12 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "fr.rootmytech.meteo"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "fr.rootmytech.meteo"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "fr.rootmytech.meteo"
         }
     },
     "dependent_plugins": {}

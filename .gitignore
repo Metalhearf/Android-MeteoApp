@@ -1,5 +1,9 @@
 # empecher le commit des builds
-app/platforms/
+app_cordova/platforms/
+app_cordova/node_modules/
+app_ionic/platforms/
+app_ionic/node_modules/
+
 
 # Idea files
 .idea/

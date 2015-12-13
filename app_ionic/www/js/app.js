@@ -1,10 +1,4 @@
-// Ionic Starter App
-
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
-
-var app = angular.module('app', ['ionic', 'ngRoute', 'ngCordova']);
+var app = angular.module('app', ['ionic', 'ngRoute', 'ngCordova', 'app.controllers']);
 
 app.config(function($routeProvider){
   $routeProvider
@@ -35,7 +29,19 @@ app.controller("NavController", function ($scope) {
   $scope.menu = 'home';
 });
 
-app.controler("FileController", function ($scope, $ionicLoading) {
 
+angular.module('app.controllers', [])
+.controller('AppCtrl', function($scope) {
 
+  $scope.filepathChooser = function() {
+    window.plugins.mfilechooser.open([], function (uri) {
+       //Here uri provides the selected file path.
+    console.log('file path', uri);
+    alert(uri);
+  }, function (error) {
+      console.log('Error', error);
+   alert(error);
+  });
+ };
 });
+

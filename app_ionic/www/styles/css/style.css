@@ -1,6 +1,6 @@
-/* line 48, ../img/*.png */
-.img-sprite, .img-logo {
-  background-image: url('/../img/../img-s346b092ca8.png');
+/* line 56, ../img/*.png */
+.img-sprite, .img-ionic, .img-logo {
+  background-image: url('../../../img/../img-s3c9e84f440.png');
   background-repeat: no-repeat;
 }
 
@@ -70,8 +70,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 84, D:/Programmes/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.img-logo {
+.img-ionic {
   background-position: 0 0;
+}
+
+/* line 84, D:/Programmes/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.img-logo {
+  background-position: 0 -128px;
 }
 
 /* line 12, style.scss */

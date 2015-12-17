@@ -1,0 +1,375 @@
+/* line 56, ../img/*.png */
+.img-sprite, .img-ionic, .img-logo {
+  background-image: url('../../../img/../img-s3c9e84f440.png');
+  background-repeat: no-repeat;
+}
+
+/* line 5, D:/Programmes/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, D:/Programmes/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, D:/Programmes/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, D:/Programmes/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, D:/Programmes/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, D:/Programmes/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, D:/Programmes/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, D:/Programmes/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, D:/Programmes/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 84, D:/Programmes/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.img-ionic {
+  background-position: 0 0;
+}
+
+/* line 84, D:/Programmes/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.img-logo {
+  background-position: 0 -128px;
+}
+
+/* line 12, style.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 15, style.scss */
+input, textarea {
+  border: none;
+  -webkit-appearance: none;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* line 20, style.scss */
+body {
+  color: #8F99B7;
+  font-family: "OpenSans";
+  font-size: 16px;
+  background-color: #1F253D;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* line 27, style.scss */
+i {
+  display: inline-block;
+}
+
+/* line 30, style.scss */
+h1 {
+  font-size: 28px;
+  font-family: "OpenSans";
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFF;
+}
+
+/* line 37, style.scss */
+p {
+  margin: 1.5em 0px;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 41, style.scss */
+input.text {
+  display: block;
+  width: 100%;
+  height: 48px;
+  border: 1px solid #1F253d;
+  background-color: #4F597B;
+  color: #FFF;
+  font-size: 16px;
+  padding-left: 10px;
+  outline: none;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -o-background-clip: padding-box;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+/* line 54, style.scss */
+input.text:focus {
+  border: 1px solid #11a7ab;
+}
+
+/* line 58, style.scss */
+input.submit, .btn {
+  display: inline-block;
+  padding: 0 5px;
+  height: 50px;
+  line-height: 50px;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -o-background-clip: padding-box;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  background-color: #e45B65;
+  float: right;
+  text-decoration: none;
+}
+
+/* line 74, style.scss */
+.btn {
+  background-color: #11a7ab;
+  float: left;
+}
+
+/* line 78, style.scss */
+.back {
+  display: block;
+  position: absolute;
+  top: -60px;
+  left: 0;
+  background: url(img/back.png) center center no-repeat;
+  z-index: 10;
+  width: 60px;
+  heigt: 60px;
+}
+
+/* line 88, style.scss */
+.loader {
+  background: url(img/loader.gif) center center no-repeat rgba(57, 66, 100, 0.6);
+  z-index: 500;
+}
+
+/* line 93, style.scss */
+.row-title {
+  height: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  background-color: #cb314b;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -o-background-clip: padding-box;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 105, style.scss */
+.row {
+  height: 60px;
+  background-color: #394163;
+  margin: 1px 0;
+  position: relative;
+}
+/* line 110, style.scss */
+.row i {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+}
+
+/* line 116, style.scss */
+.row-active {
+  height: 60px;
+  background-color: #394763;
+  margin: 1px 0;
+}
+
+/* line 121, style.scss */
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  line-height: 60px;
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #11a7ab;
+}
+
+/* line 134, style.scss */
+.view {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  left: 0;
+  bottom: 60px;
+}
+
+/* line 142, style.scss */
+.nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  text-align: center;
+  background-color: #4F597B;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 151, style.scss */
+.nav a {
+  display: block;
+  width: 20%;
+  float: left;
+  line-height: 60px;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+/* line 158, style.scss */
+.nav a:first-child, .nav :nth-child(2), .nav :nth-child(3), .nav :nth-child(4) {
+  border-right: 1px solid #1F253D;
+}
+/* line 161, style.scss */
+.nav .active {
+  border-top: 3px solid #11A7AB;
+}
+/* line 164, style.scss */
+.nav i {
+  margin-top: 15px;
+}
+
+/* line 169, style.scss */
+.panel, .loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-color: #1F253D;
+}
+
+/* line 182, style.scss */
+.panel-padding {
+  padding: 20px 25px;
+}
+
+/* line 186, style.scss */
+.left {
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+/* line 189, style.scss */
+.center {
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+/* line 192, style.scss */
+.right {
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+/* line 196, style.scss */
+.thumb {
+  width: 24px;
+  height: 24px;
+  float: none;
+  position: relative;
+  top: 7px;
+}
+
+/* line 204, style.scss */
+form .progress {
+  line-height: 15px;
+}
+
+/* line 208, style.scss */
+.progress {
+  display: inline-block;
+  width: 100px;
+  border: 3px groove #CCC;
+}
+
+/* line 215, style.scss */
+.progress div {
+  font-size: smaller;
+  color: #fff;
+  background-color: #11A7AB;
+  text-align: center;
+}

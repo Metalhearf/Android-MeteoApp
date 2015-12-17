@@ -1,0 +1,18 @@
+<section class="panel panel-padding">
+	<h1>Accueil</h1>
+	<p>
+		Lorsque les militaires téléchargent le fichier contenant les données météo, celui-ci est automatiquement envoyé dans « téléchargements ». Vous devez donc proposer une interface d’upload transférant le fichier météo de « téléchargements » à un dossier sûr où l’utilisateur ne pourra supprimer les fichiers qu’à travers l’interface. Lors de l’upload, vous devrez renommer le nom du fichier avec la date de la 1ère ligne d’information (d’un point de vue pratique, c’est la 2ème ligne). La première étant le nom de la station). Si 2 fichiers correspondent à la même date, ils peuvent représenter 2 stations météo différentes. « France Météo» souhaite écraser le premier fichier car il y a normalement une tablette par station.
+	</p>
+
+	<h1>Upload</h1>
+
+	<div ng-app="app">
+		<ion-content ng-controller="AppCtrl" class="padding">
+		<button class="button button-full button-positive" ng-click="filepathChooser()">
+			Importer un fichier .HIS
+		</button>
+	</ion-content>
+</div>
+
+
+</section>

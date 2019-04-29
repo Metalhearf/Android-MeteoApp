@@ -2,11 +2,9 @@
 <widget id="com.rootmytech.appmeteo" version="1.0.0">
   <name>AppMétéo</name>
   <description>
-        Application de gestion et de suivi météorologique dans le cadre d'un projet ETNA.
+        Application de gestion et de suivi météorologique dans le cadre d'un projet scolaire.
     </description>
-  <author email="dasilv_a@etna-alternance.net" href="https://github.com/Metalhearf/app_meteo">
-    RootMyTech Team
-  </author>
+  <author email="" href="">M</author>
   <content src="index.html"/>
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>
